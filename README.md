@@ -1,7 +1,7 @@
-# Google Image Search - Firefox Search Shortcut
+t# Google / DDG Image Search - Firefox Search Shortcut
 Useful firefox search shortcut that lets you use the searchbar to search google images
 
-Instead of typing images.google.com, then searching, or searching on google then clicking images, just open the adress/search bar, type ii [search_term]
+Instead of typing images.google.com or images.duckduckgo.com, then searching, or searching on google then clicking images, just open the adress/search bar, type ii [search_term]
 
 ---
 
@@ -15,8 +15,14 @@ Instead of typing images.google.com, then searching, or searching on google then
 
 __Important__
 
-- Engine URL: Put `https://www.google.com/search?tbm=isch&q=%s`
-- Alias: Put a keyword so when you type it in the search bar your shortcut comes up automatically (Ex. gi or ii)
+- Engine URL:
+  - For Google Images
+
+    `https://www.google.com/search?tbm=isch&q=%s`
+  - For DuckDuckGo Images
+
+    `https://duckduckgo.com/?t=ffab&q=%s&iax=images&ia=images`
+- Alias: Put a keyword so when you type it in the search bar your shortcut comes up automatically (Ex. gi or ii or di)
 
 ### Done!
 
